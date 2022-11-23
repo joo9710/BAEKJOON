@@ -21,7 +21,8 @@ public class b25501 {
         int T = in.nextInt();
         for(int i=0; i<T; i++) {
             result = 0;
-            System.out.println(isPalindrome(in.next() + " " + result));
+            System.out.println(isPalindrome(in.next()) + " " + result);
         }
+        in.close();
     }
 }
